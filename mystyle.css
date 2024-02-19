@@ -1,0 +1,54 @@
+body {
+
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+}
+
+#leftheader {
+    flex: 1;
+}
+
+#rightheader {
+    flex: 2;
+    margin-top: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#content {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: x-large;
+    border: 0.5px solid;
+}
+
+#bottom {
+    text-align: center;
+    border: 0.5px solid;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+
+}
+
+#image {
+    flex: 1;
+}
+
+#imagetext {
+
+    flex: 3;
+}
+

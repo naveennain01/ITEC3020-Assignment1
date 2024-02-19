@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>Skincare</title>
+    
+</head>
+
+<body>
+    <!-- Header section includes the logo and navigation tabs -->
+    <div id="header">
+        <div id="leftheader">
+            <img src="Logoimage.JPG" width="400" height="220" alt="Image not available" />
+        </div>
+        <div id="rightheader">
+            <a href="Home.html">Home</a>&nbsp;
+            <a href="Skincare.html">Skincare</a>&nbsp;
+            <a href="Haircare.html">Haircare</a>&nbsp;
+            <a href="Contact.html">Contact</a>&nbsp; &emsp; &emsp;
+            <input type="text" name="search" id="search" placeholder="Search">
+            <button class="btn btn-sm">Search</button> &emsp;
+            <a href="cart.html"><img src="carticon.jfif" width="90" height="90" alt="Image not available" /></a>
+        </div>
+    </div>
+     <!-- Content div is for the central area of the webpage -->
+    <div id="content">
+        <div class="product">
+            <div id="image">
+                <img src="FaceWash.jpg" height="250" width="250" alt="Image not available">
+                <style>
+                    #image img:hover {
+                        content: url('FaceWashhover.jpg');
+                    }
+                </style>
+            </div>
+            <div id="imagetext">
+                <h2>7 Days Activated Charcoal Face Wash (100 gm) $15</h2>
+                <p>7Days charcoal facewash is an ultimate solution for a healthy and glowing skin. Activated charcoal
+                    has unique properties that it draws out impurities, dirt, sweat, excess oil and makeup thereby giving a
+                    clean look to the skin. As it does not contain any chemicals it leaves your skin feeling soft and
+                    smooth. Natural extracts and ingredients repair skin from within. Don’t you think healthy skin is a
+                    reflection of overall wellness. </p><br>
+                    <div class="QuantitySelection">
+                        <label for="size">Size:</label>
+                            <select id="size" name="size">
+                            <option value="100gm">100gm $15</option>
+                            <option value="300gm">300gm $30</option>
+                            </select><br>
+                        <label for="quantity">Quantity:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" value="1"><br>
+                        <button onclick="addToCart()">Add to Cart</button>   
+                    </div>
+            </div>           
+        </div>
+    </div>
+     <!-- Bottom div is for the footer of the webpage -->
+    <div id="bottom">
+        <h5>100% Ayurvedic &emsp; &emsp; &emsp;&emsp; Plant Based &emsp; &emsp; &emsp; &emsp;Complimentary Samples
+            &emsp; &emsp; &emsp;&emsp; Free Shipping (order $50+)<br><br> &copy; Ayurvedic Essentials. All rights reserved. </h5>
+    </div>
+    </div>
+</body>
+
+</html>
